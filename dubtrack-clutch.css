@@ -1,4 +1,4 @@
-/* Imports */
+/* Imports for certain features*/
 @import url("https://nightbloo.github.io/dubtrack/dubtrack.css");
 @import url("https://hebgbs.github.io/rainbowstuff.css"); /* Rainbow sliders */
 @import url("https://netox005.github.io/Dubtrack/css/chatright.css"); /* Chat completly to the right */
@@ -311,4 +311,13 @@ transparent 100%) !important;
   max-height: 30px !important;
   width: auto !important;
   height: auto !important;
+  
+/* Twitch Emotes (DubX) size fixes */
+img.emoji.twitch-emoji[alt="fishmoley"] { min-width: 2.5rem; } /* fishmoley */
+img.emoji.twitch-emoji[alt="yetiz"] { min-width: 3rem; } /* :yetiz: */
+img.emoji.twitch-emoji[alt="lenny"] { min-width: 3.5rem; } /* :lenny: */
+img.emoji.twitch-emoji[alt="firespeed"] { min-width: 4rem; } /* firespeed */
+img.emoji.twitch-emoji[alt="shrug"] { min-width: 5rem; } /* :shrug: */
+img.emoji.twitch-emoji[alt="angelthump"], img.emoji.twitch-emoji[alt="taxibro"] { min-width: 4.5rem; } /* :angelthump:, :taxibro: */
+tw
 }
