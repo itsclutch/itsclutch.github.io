@@ -276,17 +276,17 @@ transparent 100%) !important;
  
 /* Loading, promote/demote and song skips in chat not so similar to user /me's */
 #chat .chat-main .system, #chat .chat-main .chat-system-loading {
-  text-align: center; color: #0090CC !important;
+  text-align: center; color: #0090CC !important; text-transform: uppercase;
 }
  
-/* Welcome message in white */
+/* Welcome message in cobalt */
 #chat .chat-container .chat-messages .chat-main li.chat-welcome-message {
-  color: white !important;
+  color: #0047AB !important;
 }
  
 /* Agressive errors in chat */
 #chat .chat-container .chat-messages .chat-main li.system-error {
-  text-transform: uppercase;
+  text-transform: uppercase; text-align: center;
 }
  
 /* Scrollbars more visible */
