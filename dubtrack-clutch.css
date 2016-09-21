@@ -321,3 +321,6 @@ img.emoji.twitch-emoji[alt="shrug"] { min-width: 5rem; } /* :shrug: */
 img.emoji.twitch-emoji[alt="angelthump"], img.emoji.twitch-emoji[alt="taxibro"] { min-width: 4.5rem; } /* :angelthump:, :taxibro: */
 tw
 }
+
+/* Name Colour */
+#chat .chat-container .chat-messages .chat-main li.current-chat-user .activity-row .text .username { color: pink !important; }
