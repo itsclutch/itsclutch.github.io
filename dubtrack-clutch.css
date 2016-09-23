@@ -311,6 +311,21 @@ transparent 100%) !important;
 /* Hide annotations */
 .html5-video-content .video-annotations { display: none !important;
 }
+
+/* Video to the left */
+@media screen and (min-width: 72em) {
+    #main-room .left_section { left: 0; max-width: 40rem; }
+    #main-room .left_section #main_player { border-radius: 0 0 1rem 0; }
+    #main_player .player_header { left: initial; right: -73px; height: 360px; }
+    #main_player .player_header span {
+        float: left;
+        padding-left: 0;
+        padding-right: .5rem;
+        border-radius: 0 1rem 1rem 0;
+    }
+    #main_player .player_header span.edit-room { float: left; padding: 1px 4px 0 0; }
+}
+
 /* Fix emote size */
 .right_section #chat .activity-row .text .bttv-emote.emoji,  .right_section #chat .activity-row .text .twitch-emote.emoji{
   max-width: 100px !important;
