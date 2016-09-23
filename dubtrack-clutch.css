@@ -37,10 +37,6 @@
     color: #1A1A1A !important;
 }
  
-#player-controller .left ul li.infoContainer .infoContainerInner .progressBg {
-    height: 7px !important;
-}
- 
 #chat .chat_tools {
 border-bottom: none !important;
 }
