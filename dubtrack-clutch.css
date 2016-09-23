@@ -302,7 +302,12 @@ transparent 100%) !important;
 /* Hide Youtube Watermark */
 .ytp-watermark { display: none !important;
 }
- 
+
+/* Change color of RDJ rank when hover over the name */
+#chat .chat-container .chat-messages .chat-main li.resident-dj .user-role, #chat .chat-container .chat-messages .chat-main li.resident-dj .username {
+    color: #33CCF1 !important;
+}
+
 /* Hide annotations */
 .html5-video-content .video-annotations { display: none !important;
 }
@@ -312,6 +317,8 @@ transparent 100%) !important;
   max-height: 30px !important;
   width: auto !important;
   height: auto !important;
+  
+  
   
 /* Twitch Emotes (DubX) size fixes */
 img.emoji.twitch-emoji[alt="fishmoley"] { min-width: 2.5rem; } /* fishmoley */
