@@ -3,6 +3,7 @@
 @import url("https://hebgbs.github.io/rainbowstuff.css"); /* Rainbow sliders */
 /* @import url("https://itsclutch.github.io/slidercolour.css"); */ /* Custom Blue - Black Slider */
 @import url("https://netox005.github.io/Dubtrack/css/chatright.css"); /* Chat completly to the right */
+@import url("https://frosolf.github.io/leftvideo.css"); /* Video to the left */
 @import url("https://netox005.github.io/Dubtrack/css/skynet.css"); /* Netox's bot prefs */
 @import url("https://netox005.github.io/Dubtrack/css/animations.css"); /* NB3 animations */
 @import url("https://frosolf.github.io/siteimgs.css"); /* Background images (Parted from mixercore) */
@@ -305,20 +306,6 @@ transparent 100%) !important;
 
 /* Hide annotations */
 .html5-video-content .video-annotations { display: none !important;
-}
-
-/* Video to the left */
-@media screen and (min-width: 72em) {
-    #main-room .left_section { left: 0; max-width: 40rem; }
-    #main-room .left_section #main_player { border-radius: 0 0 1rem 0; }
-    #main_player .player_header { left: initial; right: -73px; height: 360px; }
-    #main_player .player_header span {
-        float: left;
-        padding-left: 0;
-        padding-right: .5rem;
-        border-radius: 0 1rem 1rem 0;
-    }
-    #main_player .player_header span.edit-room { float: right; padding: 1px 4px 0 0; }
 }
 
 /* Fix emote size */
