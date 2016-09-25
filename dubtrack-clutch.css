@@ -290,3 +290,6 @@ img.emoji.twitch-emoji[alt="angelthump"], img.emoji.twitch-emoji[alt="taxibro"] 
 
 /* Name Colour */
 #chat .chat-container .chat-messages .chat-main li.current-chat-user .activity-row .text .username { color: pink !important; }
+
+/* Room size fix */ 
+#main-room { max-width: initial; padding: 3.5rem 0 3.6rem; }
