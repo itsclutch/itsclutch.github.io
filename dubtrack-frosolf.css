@@ -20,7 +20,6 @@
   /* Required no editing */
   /* Original, Failchon & from netox005's NB3 style */
 @import url("https://netox005.github.io/Dubtrack/css/chatright.css"); /* Chat completely to the right */
-@import url("https://netox005.github.io/Dubtrack/css/videosmall.css"); /* Small video */
 @import url("https://netox005.github.io/Dubtrack/css/skynet.css"); /* Netox's bot prefs */
 @import url("https://netox005.github.io/Dubtrack/css/animations.css"); /* NB3 animations */
 @import url("https://frosolf.github.io/colorfix.css"); /* Removes double ranking and icons */
@@ -33,6 +32,7 @@
 @import url("https://frosolf.github.io/betterchat.css"); /* Better chat (and other fixes + mixer colours) */
 @import url("https://frosolf.github.io/siteimgs.css"); /* Background images (Parted from mixercore) */
 @import url("https://frosolf.github.io/leftvideo.css"); /* Video to the left */
+@import url("https://hebgbs.github.io/leftvideosmall.css"); /* Small video: left side mod */
 @import url("https://frosolf.github.io/usrprefs.css"); /* User-specific settings (Better chat improves some of this) */
   /* Special */
 
