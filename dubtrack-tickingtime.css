@@ -1,0 +1,141 @@
+@import url("https://netox005.github.io/Dubtrack/css/chatright.css"); /* Chat completely to the right */
+@import url("https://netox005.github.io/Dubtrack/css/videosmall.css"); /* Small video */
+@import url("https://netox005.github.io/Dubtrack/css/fixesnetux.css"); /* Netux Fixes */
+@import url("https://netox005.github.io/Dubtrack/css/voteicons.css"); /* NB3 Vote Icons */
+@import url("https://netox005.github.io/Dubtrack/css/skynet.css"); /* Netox's bot prefs */
+@import url("https://netox005.github.io/Dubtrack/css/animations.css"); /* NB3 animations */
+@import url("https://hebgbs.github.io/rainbowstuff.css"); /* Rainbow sliders and progress bars */
+@import url("https://frosolf.github.io/mixercore.css"); /* Chillout Mixer core theme */
+@import url("https://netox005.github.io/Dubtrack/css/skynet.css"); /* Better recognizable Room BOTs */
+@import url("https://netox005.github.io/Dubtrack/css/animations.css"); /* Pack of animations */
+@import url("https://frosolf.github.io/betterchat.css"); /* Better chat (and other fixes + mixer colours) */
+
+/* Special people colors */
+#chat .chat-container ul.chat-main li.user-56b928b1a3e55abb04b33dae .stream-item-content .activity-row .username /* theofficialturbo */ { color: #00E5EE !important;  }
+#chat .chat-container ul.chat-main li.user-55ffe1e8196f170300cc102a .stream-item-content .activity-row .username /* demoz */ { color: #DC143C !important;  }
+#chat .chat-container ul.chat-main li.user-56f7633a956749c200c62101 .stream-item-content .activity-row .username /* funnyguy77 */ { color: #4DBD33 !important;  }
+#chat .chat-container ul.chat-main li.user-560b18f88b4f900300cc6c06 .stream-item-content .activity-row .username /* slyfox */ { color: #76EE00 !important;  }
+#chat .chat-container ul.chat-main li.user-570476b1fa0b0d5a00d2d1ec .stream-item-content .activity-row .username /* sister */ { color: #D43D1A !important;  }
+#chat .chat-container ul.chat-main li.user-569d6f9289d6541900324f23 .stream-item-content .activity-row .username /* vipture */ { color:#EFD13B !important;  }
+#chat .chat-container ul.chat-main li.user-56c057eaa23bb71d0001ac91 .stream-item-content .activity-row .username /* tinyandkawaii */ { color:#FF9900 !important;  }
+#chat .chat-container ul.chat-main li.user-5789486d73c2b46a00d5ef63 .stream-item-content .activity-row .username /* mrforbiddendeath */ { color:#0ACBEE !important;  }
+#chat .chat-container ul.chat-main li.user-56d545a245f02ad6041a4317 .stream-item-content .activity-row .username /* never_pause */ { color:#1464F4 !important;  }
+#chat .chat-container ul.chat-main li.user-56cb6b73e85e1f1c0170f10a .stream-item-content .activity-row .username /* angeloidikaros */ { color:#DDA0DD !important;  }
+#chat .chat-container ul.chat-main li.user-56bcab3a6d969f1d0098a158 .stream-item-content .activity-row .username /* satananas */ { color:#61B329 !important;  }
+#chat .chat-container ul.chat-main li.user-57949197d2bce5a0005d9f74 .stream-item-content .activity-row .username /* dannis */ { color:#FF7E00 !important;  }
+#chat .chat-container ul.chat-main li.user-560a8df0b776b203001e6735 .stream-item-content .activity-row .username /* laquett */ { color:#7D26CD !important;  }
+#chat .chat-container ul.chat-main li.user-579143710581f82a00263624 .stream-item-content .activity-row .username /* lord_erazor */ { color:#8B0000 !important;  }
+#chat .chat-container ul.chat-main li.user-56083b920cd1cc03003fe8e2 .stream-item-content .activity-row .username /* larry1123 */ { color:#EE2C2C !important;  }
+#chat .chat-container ul.chat-main li.user-563b48d8327d731900f6cefe .stream-item-content .activity-row .username /* kindness */ { color:#e5e5e5 !important;  }
+#chat .chat-container ul.chat-main li.user-567a5cfd1b5cc31d00596518 .stream-item-content .activity-row .username /* suzukin  */ { color:#7ec0ee !important;  }
+#chat .chat-container ul.chat-main li.user-578fb952d72db16f00aabecc .stream-item-content .activity-row .username /* juunix0 */ { color: #E3170D !important;  }
+#chat .chat-container ul.chat-main li.user-57cad451eefc48690074d4cd .stream-item-content .activity-row .username /* therealneko */ { color: #4DBD33 !important;  }
+#chat .chat-container ul.chat-main li.user-5700387c65113f5f00f07b1f .stream-item-content .activity-row .username /* tracerwannabe */ { color: #0276FD !important;  }
+
+
+
+/*Video next to chat */
+@media screen and (min-width: 72em) {
+    #main-room .left_section {
+        left: initial;
+        right: 450px;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+    }    #main-room .left_section #main_player { border-radius: 0 0 0 1rem; }
+
+/* Room size fix */
+@media screen and (min-width: 72em) { #main-room .main-room-wrapper { min-height: 0; margin-bottom: 0; } }
+
+/* Skip animation */
+@keyframes hidding-skip {
+    0% { right: 0; }
+    75%, 100% { right: -100%; visibility: hidden; }
+}
+@media screen and (min-width: 72em) {
+    #main_player .player_header { overflow-x: hidden; }
+    #main_player .player_header span.skip-el[style="display: none;"] {
+        animation: hidding-skip .15s linear forwards;
+        display: block !important;
+    }
+
+
+/* Info tab fixes */
+#room-info-display .room-info-display-wrapper h2 { margin-top: 1rem; margin-bottom: 2rem; font-size: 1.5rem; }
+#room-info-display .room-info-display-wrapper h2 span,
+#room-info-display .room-info-display-wrapper h2 span i {
+    font-size: 1rem;
+}
+
+/* Mod tab fixes */
+#mods-controllers .mods-controllers-main-wrapper { padding-top: 3rem; }
+#mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers { top: 0; }
+#mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active { width: 50%; float: left; }
+
+/* Miscellaneous */
+#main_player .player_header span.display-queue::before { content: initial; }
+#browser .content-videos{
+  background: /* Top layer */ url(http://i.imgur.com/0sxhBUn.png),
+                              /* Fore image */
+           /* Bottom layer */ url(http://i.imgur.com/94ESZd6.png) center center/581px 775px no-repeat !important;
+                              /* Back image, position, size, repeat */
+}
+/* Import fixes */
+#chat .chat-container .chat-messages .chat-main li.deleted-message .stream-item-content .image_row > img { opacity: 0.01 !important; }
+
+/* Images & gradients */
+#main-loading{
+  background-image: linear-gradient(to bottom,
+                                    transparent 66px,
+                                    rgb(29, 69, 110) 66px,
+                                    rgb(29, 69, 110) 100%) !important;
+}
+
+.room-item{
+  background-image: linear-gradient(to top,
+                                    rgba(50, 60, 83, 0.80) 36px,
+                                    rgba(30, 41, 66, 0.80) 36px,
+                                    rgba(30, 41, 66, 0.80) 100%) !Important;
+}
+
+#main-menu-left,
+#main-menu-right{
+  background-image: linear-gradient(to top,
+                                    rgb(30, 41, 66) 58px,
+                                    rgba(30, 41, 66, 0.70) 58px,
+                                    rgba(30, 41, 66, 0.70) calc(100% - 56px),
+                                    rgb(30, 41, 66) calc(100% - 56px),
+                                    rgb(30, 41, 66) 100%) !Important;
+}
+
+/* TickingTime Chat Colour and stuff */
+#chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username /* TickingTime */ {
+    color: #8CDD81 !important;
+    text-shadow: 0px 0px 1px rgba(0,0,0,.5);
+}
+
+#chat .chat-container ul.chat-main li.user-56d47266a3af139b0357f646 .stream-item-content .activity-row .username:before /* TickingTime */ {
+    content: "\f137";
+    font-family: "foundation-icons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    text-decoration: inherit;
+    margin-right: 5px;
+}
+/* Netux Chat Color and Stuff */
+#chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username {
+    color: rgba(0,0,0,0);
+}
+#chat .chat-container .chat-messages .chat-main li.user-560b4a33d9057a0300cc2fa0 .activity-row .username > * {
+    display: none !important;
+}
+#chat .chat-main li.user-560b4a33d9057a0300cc2fa0:not(.deleted-message) .activity-row .username::before {
+    content: "ŋetux";
+    font-weight: 700;
+    line-height: 1.2;
+    color: #FF7E00;
+}
