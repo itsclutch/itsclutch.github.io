@@ -1,6 +1,5 @@
 @import url("https://netox005.github.io/Dubtrack/css/chatright.css"); /* Chat completely to the right */
 @import url("https://netox005.github.io/Dubtrack/css/videosmall.css"); /* Small video */
-@import url("https://frosolf.github.io/rightvideo.css"); /* Video to the right */
 @import url("https://netox005.github.io/Dubtrack/css/fixesnetux.css"); /* Netux Fixes */
 @import url("https://netox005.github.io/Dubtrack/css/voteicons.css"); /* NB3 Vote Icons */
 @import url("https://netox005.github.io/Dubtrack/css/skynet.css"); /* Netox's bot prefs */
@@ -33,16 +32,6 @@
 #chat .chat-container ul.chat-main li.user-57cad451eefc48690074d4cd .stream-item-content .activity-row .username /* therealneko */ { color: #4DBD33 !important;  }
 #chat .chat-container ul.chat-main li.user-5700387c65113f5f00f07b1f .stream-item-content .activity-row .username /* tracerwannabe */ { color: #0276FD !important;  }
 
-
-
-/*Video next to chat */
-@media screen and (min-width: 72em) {
-    #main-room .left_section {
-        left: initial;
-        right: 450px;
-        padding-right: 0 !important;
-        margin-left: 0 !important;
-    }    #main-room .left_section #main_player { border-radius: 0 0 0 1rem; }
 
 /* Room size fix */
 @media screen and (min-width: 72em) { #main-room .main-room-wrapper { min-height: 0; margin-bottom: 0; } }
