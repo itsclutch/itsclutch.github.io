@@ -1,0 +1,70 @@
+/*
+Made for the NB3 Room community <3.
+
+Features:
+- chat to the right
+- video player to the right of the chat
+
+Imports:
+- small video with header buttons to the left
+- NB3 vote icons
+- recognizable room BOTs in chat
+- a pack of animations
+- an improvement on the browser and the room edit form
+- netux's fixes (including mobile view)
+- Heebee's Rainbow progress bar.
+*/
+
+/* Imports */
+@import url("https://github.netux.ml/css/voteicons.css"); /* NB3 Vote Icons */
+@import url("https://github.netux.ml/css/chatright.css"); /* Chat completely to the right */
+@import url("https://github.netux.ml/css/videosmall.css"); /* Small video */
+@import url("https://github.netux.ml/css/skynet.css"); /* Better recognizable Room BOTs */
+@import url("https://github.netux.ml/css/phonefix.css"); /* Phone Fixes */
+@import url("https://github.netux.ml/css/animations.css"); /* Pack of animations */
+@import url("https://hebgbs.github.io/rainbowNB3.css"); /* Rainbow video progress bar */
+@import url("https://github.netux.ml/css/browserbetter.css"); /* Modified Browser */
+@import url("https://github.netux.ml/css/roomformbetter.css"); /* Modified Room Form */
+@import url("https://github.netux.ml/css/fixesnetux.css"); /* Netux Fixes */
+
+/* Video next to chat */
+@media screen and (min-width: 72em) {
+    #main-room .left_section {
+        left: initial;
+        right: 450px;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+    }
+    #main-room .left_section #main_player { border-radius: 0 0 0 1rem; }
+}
+
+/* Room size fix */
+@media screen and (min-width: 72em) { #main-room .main-room-wrapper { min-height: 0; margin-bottom: 0; } }
+
+/* Skip animation */
+@keyframes hidding-skip {
+    0% { right: 0; }
+    75%, 100% { right: -100%; visibility: hidden; }
+}
+@media screen and (min-width: 72em) {
+    #main_player .player_header { overflow-x: hidden; }
+    #main_player .player_header span.skip-el[style="display: none;"] {
+        animation: hidding-skip .15s linear forwards;
+        display: block !important;
+    }
+}
+
+/* Info tab fixes */
+#room-info-display .room-info-display-wrapper h2 { margin-top: 1rem; margin-bottom: 2rem; font-size: 1.5rem; }
+#room-info-display .room-info-display-wrapper h2 span,
+#room-info-display .room-info-display-wrapper h2 span i {
+    font-size: 1rem;
+}
+
+/* Mod tab fixes */
+#mods-controllers .mods-controllers-main-wrapper { padding-top: 3rem; }
+#mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers { top: 0; }
+#mods-controllers .mods-controllers-main-wrapper .mod-controllers-headers a.active { width: 50%; float: left; }
+
+/* Miscellaneous */
+#main_player .player_header span.display-queue::before { content: initial; }
