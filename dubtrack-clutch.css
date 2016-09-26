@@ -2,10 +2,10 @@
 @import url("https://nightbloo.github.io/dubtrack/dubtrack.css");
 @import url("https://hebgbs.github.io/rainbowstuff.css"); /* Rainbow sliders */
 /* @import url("https://itsclutch.github.io/slidercolour.css"); */ /* Custom Blue - Black Slider */
-@import url("https://netox005.github.io/Dubtrack/css/chatright.css"); /* Chat completely to the right */
+@import url("https://github.netux.ml/css/chatright.css"); /* Chat completely to the right */
 @import url("https://frosolf.github.io/leftvideo.css"); /* Video to the left */
-@import url("https://netox005.github.io/Dubtrack/css/skynet.css"); /* Netox's bot prefs */
-@import url("https://netox005.github.io/Dubtrack/css/animations.css"); /* NB3 animations */
+@import url("https://github.netux.ml/css/skynet.css"); /* Netox's bot prefs */
+@import url("https://github.netux.ml/css/animations.css"); /* NB3 animations */
 @import url("https://frosolf.github.io/siteimgs.css"); /* Background images (Parted from mixercore) */
 @import url("https://hebgbs.github.io/leftvideosmall.css"); /* Small video: left side mod */
  
@@ -290,6 +290,3 @@ img.emoji.twitch-emoji[alt="angelthump"], img.emoji.twitch-emoji[alt="taxibro"] 
 
 /* Name Colour */
 #chat .chat-container .chat-messages .chat-main li.current-chat-user .activity-row .text .username { color: pink !important; }
-
-/* Room size fix */ 
-#main-room { max-width: initial; padding: 3.5rem 0 3.6rem; }
