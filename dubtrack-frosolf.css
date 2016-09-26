@@ -19,9 +19,9 @@
 /* Imports */
   /* Required no editing */
   /* Original, Failchon & from netox005's NB3 style */
-@import url("https://netox005.github.io/Dubtrack/css/chatright.css"); /* Chat completely to the right */
-@import url("https://netox005.github.io/Dubtrack/css/skynet.css"); /* Netox's bot prefs */
-@import url("https://netox005.github.io/Dubtrack/css/animations.css"); /* NB3 animations */
+@import url("https://github.netux.ml/css/chatright.css"); /* Chat completely to the right */
+@import url("https://github.netux.ml/css/skynet.css"); /* Netox's bot prefs */
+@import url("https://github.netux.ml/css/animations.css"); /* NB3 animations */
 @import url("https://frosolf.github.io/colorfix.css"); /* Removes double ranking and icons */
   /* Additions by @heebeejeebees */
 @import url("https://hebgbs.github.io/nullstuff.css"); /* Contributions by @null */
@@ -35,6 +35,3 @@
 @import url("https://hebgbs.github.io/leftvideosmall.css"); /* Small video: left side mod */
 @import url("https://frosolf.github.io/usrprefs.css"); /* User-specific settings (Better chat improves some of this) */
   /* Special */
-
-/* Room size fix */ 
-#main-room { max-width: initial; padding: 3.5rem 0 3.6rem; }
