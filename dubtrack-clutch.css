@@ -204,6 +204,13 @@ transparent 100%) !important;
 }
  
 /* Miscellaneous */
+#main_player.player_header span.display-queue::before{content: initial;}
+#browser.content-videos {
+ background: /* Top Layer */ url(http://www.clker.com/cliparts/S/0/B/R/c/g/united-nations-logo-transparent-background.svg),
+              /* Fore image */
+  /* Bottom layer */ url(http://i.imgur.com/ICBOFT3.jpg) center center/581px 775px no-repeat !important;
+             /* Back image, position, size, repeat */
+}
  
 /* Fix add to playlist background */
 #addToPlaylistFloatContainer {
