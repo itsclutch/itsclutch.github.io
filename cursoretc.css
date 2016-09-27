@@ -193,7 +193,7 @@ body {
     height: auto !important;
 }
 
-#header-global { position: fixed; top: 0px; z-index: 11; left: 0px; width: 100%; min-height: 0rem; zoom: 1; padding: 0.8rem 1rem;
+#header-global { position: fixed; top: 0px; z-index: 11; left: 0px; width: 100%; min-height: 0rem; zoom: 1; padding: 1rem 1rem;
 }
 
 /* Chat container */
