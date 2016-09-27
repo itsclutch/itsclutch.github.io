@@ -1,0 +1,172 @@
+/* CURSOR */
+body {
+    cursor: url(http://cur.cursors-4u.net/anime/ani-12/ani1136.ani), url(http://cur.cursors-4u.net/anime/ani-12/ani1136.gif), progress !important;
+}
+
+/* CHAT ICONS FOR LEFT SIDE OF THE NAME */
+
+#chat .chat-main .isOwner .username:before {
+    content: url(http://s481.photobucket.com/user/xscimmyx/media/0wner.png.html);
+    position: relative;
+    top: 3px;
+    padding-right: 4px;
+}
+#chat .chat-main .isCo-owner .username:before {
+    content: url(http://i45.tinypic.com/zit94w.png);
+    position: relative;
+    top: 3px;
+    padding-right: 4px;
+}
+#chat .chat-main .isManager .username:before {
+    content: url(http://i481.photobucket.com/albums/rr175/xscimmyx/headadmincrown.gif);
+    position: relative;
+    top: 3px;
+    padding-right: 4px;
+}
+#chat .chat-main .isMod .username:before {
+    content: url(http://i137.photobucket.com/albums/q232/LaundryLady1947/Runescape/modcrownaw2.png);
+    position: relative;
+    top: 3px;
+    padding-right: 4px;
+}
+#chat .chat-main .isVip .username:before {
+    content: url(https://rawgit.com/ChilloutMusica/dubtheme/master/icons/vip.png);
+    position: relative;
+    top: 2px;
+    padding-right: 4px;
+}
+#chat .chat-main .isResident-dj .username:before {
+	color: #fcf309;
+    content: url(https://cdn.radiant.dj/rcs/icons/3632408_custom.png);
+    color: red; background: transparent url(http://i52.tinypic.com/288mj9l.gif);
+    position: relative;
+    top: 3px;
+    padding-right: 2px;
+}
+
+/* RIGHT SIDE OF THE NAME */  
+#chat .chat-container .chat-messages .chat-main li.creator .user-role,
+#chat .chat-container .chat-messages .chat-main li.creator .username,
+#main_avatar_room #main-user-list-room #avatar-list li.creator .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.creator .username
+{
+    color: #FF38CB; background: transparent url(http://i.imgur.com/fOrAAsv.jpg);
+    text-shadow: 0px 0px 10px red
+}
+
+#chat .chat-container .chat-messages .chat-main li.co-owner .user-role,
+#chat .chat-container .chat-messages .chat-main li.co-owner .username,
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.co-owner .username
+{
+    color: #ff0000; background: transparent url(http://i.imgur.com/21eSAPA.jpg);
+    text-shadow: 0px 0px 10px red
+}
+
+#chat .chat-container .chat-messages .chat-main li.manager .user-role,
+#chat .chat-container .chat-messages .chat-main li.manager .username,
+#main_avatar_room #main-user-list-room #avatar-list li.manager .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.manager .username
+{
+    color: #ff9c00; background: transparent url(http://i.imgur.com/sG3YmXV.jpg);
+    text-shadow: 0px 0px 10px orange
+}
+
+#chat .chat-container .chat-messages .chat-main li.mod .user-role,
+#chat .chat-container .chat-messages .chat-main li.mod .username,
+#main_avatar_room #main-user-list-room #avatar-list li.mod .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.mod .username
+{
+    color: #0084ff; background: transparent url(http://i.imgur.com/xQWz61Z.jpg);
+    text-shadow: 0px 0px 10px purple
+}
+
+#chat .chat-container .chat-messages .chat-main li.vip .user-role,
+#chat .chat-container .chat-messages .chat-main li.vip .username,
+#main_avatar_room #main-user-list-room #avatar-list li.vip .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.vip .username
+{
+    color: #29A3A3; background: transparent url(http://i.imgur.com/OsKGfeV.jpg);
+    text-shadow: 0px 0px 10px blue
+}
+
+#chat .chat-container .chat-messages .chat-main li.resident-dj .user-role,
+#chat .chat-container .chat-messages .chat-main li.resident-dj .username,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.resident-dj .username
+{
+    color: #00ffde; background: transparent url(http://i.imgur.com/xxCt9Sg.jpg);
+    text-shadow: 0px 0px 10px blue
+}
+
+#chat .chat-container .chat-messages .chat-main li.admin .user-role,
+#chat .chat-container .chat-messages .chat-main li.admin .username,
+#main_avatar_room #main-user-list-room #avatar-list li.admin .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.admin .username
+{
+    color: #6e52ff; background: transparent url(https://i.imgur.com/OrkBED9.png);
+    text-shadow: 0px 0px 10px black
+}
+
+#chat .chat-container .chat-messages .chat-main li.user-55ffae6a1564a403003f5132 .user-role,
+#chat .chat-container .chat-messages .chat-main li.user-55ffae6a1564a403003f5132 .username,
+#main_avatar_room #main-user-list-room #avatar-list li.userid-55ffae6a1564a403003f5132 .user-role,
+#main_avatar_room #main-user-list-room #avatar-list li.userid-55ffae6a1564a403003f5132 .username
+{}
+
+/* BADGES */
+.creator span.user-role-icon {
+    background-image: url(https://nightbloo.github.io/plug/icons/hostpink.png);
+    display: inline-block !important;
+}
+
+.co-owner span.user-role-icon {
+    background-image: url(https://nightbloo.github.io/plug/icons/hostpink.png);
+    display: inline-block !important;
+}
+
+.manager span.user-role-icon {
+    background-image: url(https://nightbloo.github.io/plug/icons/manager.png);
+    display: inline-block !important;
+}
+
+.mod span.user-role-icon {
+    background-image: url(https://nightbloo.github.io/plug/icons/bouncer.png);
+    display: inline-block !important;
+}
+
+.vip span.user-role-icon {
+    background-image: url(https://nightbloo.github.io/plug/icons/vip.png);
+    display: inline-block !important;
+}
+
+.resident-dj span.user-role-icon {
+    background-image: url(https://nightbloo.github.io/plug/icons/rdj.png);
+    display: inline-block !important;
+}
+
+#chat .chat-main .user-56005297239f1303009c88c5 .username {
+    color: #4dc9ff !important;
+}
+
+  /* Emote height override */
+#chat .chat-me-command-joined{
+  min-height: 0px !Important;
+}
+
+  /* Undoing DubX defaults */
+.dubx #chat .chat-container .chat-messages .chat-main LI .stream-item-content .image_row,
+.dubx #chat .chat-container .chat-messages .chat-main LI .chatDelete{
+  top: 0px;
+}
+.dubx .chat-main.splitChat li:nth-child(2n) .chatDelete{
+  right: 0px !important;
+}
+
+/* Emote sizes */
+#chat .emoji {
+    max-width: none !important;
+    max-height: 28px !important;
+    width: auto !important;
+    height: auto !important;
+}
