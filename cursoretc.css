@@ -294,4 +294,22 @@ body {
   padding-bottom: 55%;
 }
 
+/*--chat--*/
+#chat {
+  opacity: .5;
+  transition: .2s;
+}
+
+#chat:hover {
+  opacity: 1;
+}
+
+#chat .player_container {
+  padding-bottom: 220px;
+  transition: .2s;
+}
+
+.chat-wrapper:hover #chat .player_container {
+  padding-bottom: 55%;
+}
 
