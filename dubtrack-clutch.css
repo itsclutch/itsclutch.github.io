@@ -6,6 +6,7 @@
 @import url("https://frosolf.github.io/leftvideo.css"); /* Video to the left */
 @import url("https://github.netux.ml/css/skynet.css"); /* Netox's bot prefs */
 @import url("https://github.netux.ml/css/animations.css"); /* NB3 animations */
+@import url("https://itsclutch.github.io/clutch-siteimgs.css"); /* Custom Site Image / Clutch */
 @import url("https://hebgbs.github.io/leftvideosmall.css"); /* Small video: left side mod */
  
 #main_player .player_header #topbanner {
@@ -203,13 +204,6 @@ transparent 100%) !important;
 }
  
 /* Miscellaneous */
-#main_player.player_header span.display-queue::before{content: initial;}
-#browser.content-videos {
- background: /* Top Layer */ url(http://i.imgur.com/0sxhBUn.png),
-              /* Fore image */
-  /* Bottom layer */ url(http://i.imgur.com/ICBOFT3.jpg) center center/581px 775px no-repeat !important;
-             /* Back image, position, size, repeat */
-}
  
 /* Fix add to playlist background */
 #addToPlaylistFloatContainer {
