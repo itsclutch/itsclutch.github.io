@@ -195,3 +195,46 @@ body {
 
 #header-global { position: fixed; top: 0px; z-index: 11; left: 0px; width: 100%; min-height: 3.6rem; zoom: 1; padding: 0.8rem 1rem;
 }
+
+/* Chat container */
+#main-room .right_section {
+    background: rgba(15,15,15,0.66);
+    border-radius: 0.5rem;
+}
+#chat .chat_tools span:after {
+    border: 1px solid #ddd;
+}
+#chat .chat_tools .display-chat,
+#main-room.display-users-rooms #chat .display-room-users,
+#main-room.display-chat-settings #chat .display-chat-settings,
+#chat .chat_tools .icon-chatsettings:hover,
+#chat .chat_tools .display-room-users.icon-people:hover,
+#main-room.display-users-rooms #chat .display-chat:hover, 
+#main-room.display-users-rooms #chat .display-chat-settings:hover,
+#main-room.display-chat-settings #chat .display-chat:hover,
+#main-room.display-chat-settings #chat .display-room-users:hover,
+#chat .chat-container .pusher-chat-widget-input .icon-camera:hover {
+    color: #fff;
+}
+#chat .chat-container .pusher-chat-widget-input .icon-camera {
+    color: #aaa;
+}
+#chat .pusher-chat-widget-input #new-messages-counter {
+    background: #5A93CC;
+    color: #222229;
+    opacity: 1;
+}
+#chat .chat-container ul.chat-main li .chatDelete,
+#chat .chat-container ul.chat-main li:focus .chatDelete, 
+#chat .chat-container ul.chat-main li:hover .chatDelete {
+    color: #ddd!important;
+    opacity: 1;
+    font-size: 0.65rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 0.2rem;
+}
+#chat .chat-container ul.chat-main li .chatDelete:hover {
+    color: #FF4060!important;
+}
