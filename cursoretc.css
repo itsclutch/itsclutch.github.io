@@ -78,7 +78,7 @@ body {
 #main_avatar_room #main-user-list-room #avatar-list li.mod .username
 {
     color: #0084ff; background: transparent url(http://i.imgur.com/xQWz61Z.jpg);
-    text-shadow: 0px 0px 10px white
+    text-shadow: 0px 0px 10px magenta
 }
 
 #chat .chat-container .chat-messages .chat-main li.vip .user-role,
