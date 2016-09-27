@@ -193,7 +193,7 @@ body {
     height: auto !important;
 }
 
-#header-global { position: fixed; top: 0px; z-index: 11; left: 0px; width: 100%; min-height: 3.6rem; zoom: 1; padding: 0.8rem 1rem;
+#header-global { position: fixed; top: 0px; z-index: 11; left: 0px; width: 100%; min-height: 0rem; zoom: 0; padding: 0rem 0rem;
 }
 
 /* Chat container */
@@ -238,3 +238,40 @@ body {
 #chat .chat-container ul.chat-main li .chatDelete:hover {
     color: #FF4060!important;
 }
+
+    /* Video preview */
+.playerPreview {
+    background: rgba(30,30,30,1);
+    padding: 0.5rem;
+}
+.playerPreview .player-preview-container-wrapper .close {
+    border-top-right-radius: 1rem;
+    background: rgba(30,30,30,1);
+    color: #aaa;
+    top: 0;
+    right: 0;
+}
+.playerPreview .player-preview-container-wrapper .close:hover {
+    background: rgba(30,30,30,1);
+    color: #fff;
+}
+.playerPreview .player-preview-container-wrapper .buffering, 
+.playerPreview .player-preview-container-wrapper .error, 
+.playerPreview .player-preview-container-wrapper .loading, 
+.playerPreview .player-preview-container-wrapper .replay {
+    color: #222229;
+    background: #5A93CC;
+}
+.playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .loaded,
+.playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .progress {
+    background: #5A93CC;
+}
+
+.playerPreview .player-preview-container-wrapper .ui-slider-range,
+.playerPreview .player-preview-container-wrapper .ui-slider-handle:hover {
+    background: #5A93CC;
+}
+.playerPreview .player-preview-container-wrapper .ui-slider-handle {
+    background: #eee;
+}
+
