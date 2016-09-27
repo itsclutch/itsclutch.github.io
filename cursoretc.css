@@ -154,6 +154,28 @@ body {
   min-height: 0px !Important;
 }
 
+/* Gap removal */
+
+#chat .ps-container {
+    top: -3px !Important;
+    height: calc(100% + 3px) !important;
+}
+#main_avatar_room {
+    padding-bottom: 0px !Important;
+}
+.chat-option-header,
+.chat-option-buttons {
+    position: relative !Important;
+    top: -5px !Important;
+}
+.chat-option-header {
+    margin-top: 0px !important;
+}
+#private-messages .ps-container {
+    top: -7px !Important;
+    height: calc(100% + 22px) !important;
+}
+
   /* Undoing DubX defaults */
 .dubx #chat .chat-container .chat-messages .chat-main LI .stream-item-content .image_row,
 .dubx #chat .chat-container .chat-messages .chat-main LI .chatDelete{
@@ -169,4 +191,7 @@ body {
     max-height: 28px !important;
     width: auto !important;
     height: auto !important;
+}
+
+#header-global { position: fixed; top: 0px; z-index: 11; left: 0px; width: 100%; min-height: 3.6rem; zoom: 1; padding: 0.8rem 1rem;
 }
