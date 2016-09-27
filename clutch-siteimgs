@@ -1,0 +1,31 @@
+/* 32 x 32 */
+#header-global H1{
+  background-image: url(http://puu.sh/oxweA/1983612b25.png) !important;
+                    /* Site icon */
+}
+/* 16 : 9 */
+  /* Back and fore layers are swapped here, you can
+     play with layers until it looks the way you want.
+  */
+#browser .content-videos{
+  background: /* Top layer */ url(http://i.imgur.com/0sxhBUn.png),
+                              /* Fore image */
+           /* Bottom layer */ url(http://i.imgur.com/ICBOFT3.jpg) center center/581px 775px no-repeat !important;
+                              /* Back image, position, size, repeat */
+}
+
+  /* Modified from "Soundcloud images */"
+#room-main-player-container-soundcloud,
+.playerPreview .SCplayerImage{
+  background: url(http://i.imgur.com/NxKiWSL.png) center center/80% 80% no-repeat,
+              linear-gradient(to top,
+                              rgba(30, 41, 66, 0.70) 0%,
+                              rgba(30, 41, 66, 0.70) 100%),
+                              rgb(30, 41, 66) url(http://i.imgur.com/0sxhBUn.png) !important;
+}
+
+  /* Make default image disappear */
+.soundcloud IMG[src="https://d3byct92ei5n7c.cloudfront.net/hhberclba/image/upload/c_fill,h_460,w_900/tiqxlzynh3rxrkwvzeak.jpg"],
+.playerPreview .soundcloud IMG{
+  display: none !Important;
+}
