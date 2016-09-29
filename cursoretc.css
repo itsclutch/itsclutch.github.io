@@ -68,8 +68,8 @@ body, a:hover {
 #main_avatar_room #main-user-list-room #avatar-list li.manager .user-role,
 #main_avatar_room #main-user-list-room #avatar-list li.manager .username
 {
-    color: #ff9c00; background: transparent url(http://i.imgur.com/sG3YmXV.jpg);
-    text-shadow: 0px 0px 10px orange
+    color: #ff9c00; background: transparent url(http://i.imgur.com/INY0nVh.jpg);
+    text-shadow: 0px 0px 10px blue
 }
 
 #chat .chat-container .chat-messages .chat-main li.mod .user-role,
