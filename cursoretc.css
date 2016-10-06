@@ -261,7 +261,7 @@ body, a:hover {
 .playerPreview .player-preview-container-wrapper .replay {
     color: #222229;
     background: #5A93CC;
-}
+} 
 .playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .loaded,
 .playerPreview .player-preview-container-wrapper .controlContainer .progressContainer .progress {
     background: #5A93CC;
