@@ -1,8 +1,12 @@
 /* CURSOR MIKU MOUSE*/
-body {cursor: url(http://www.rw-designer.com/cursor-extern.php?id=86251);}
-/* body, a:hover {
+/* body {cursor: url(http://www.rw-designer.com/cursor-extern.php?id=86251);}
+body, a:hover {
     cursor: url(http://cur.cursors-4u.net/anime/ani-12/ani1136.ani), url(http://cur.cursors-4u.net/anime/ani-12/ani1136.gif), progress !important;
 } */
+
+body, a:hover {
+    cursor: url(http://i.imgur.com/dzPImCJ.gifv), progress !important;
+}
 
 /* CHAT ICONS FOR LEFT SIDE OF THE NAME */
 
