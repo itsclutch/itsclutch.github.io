@@ -1,7 +1,8 @@
 /* CURSOR MIKU MOUSE*/
-body, a:hover {
+body {cursor: url(http://www.rw-designer.com/cursor-extern.php?id=86251);}
+/* body, a:hover {
     cursor: url(http://www.rw-designer.com/cursor-extern.php?id=86245), progress !important;
-}
+} */
 
 /* CHAT ICONS FOR LEFT SIDE OF THE NAME */
 
