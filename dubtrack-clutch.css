@@ -284,7 +284,23 @@ transparent 100%) !important;
   height: auto !important;
 }
   
-  
+/* Fix add to playlist background */
+#addToPlaylistFloatContainer {
+  background: #1A1A1A !important;
+}
+ 
+/* Fix playlist selector color */
+#browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected {
+ color: white !important;
+}
+ 
+/* Fix playlist number color */
+#browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li span {
+ color: white !important;
+}
+#browser .browser-content .browser-content-main .sidebar #playlists-scroll .playlist-style li.selected {
+ color: #1a1a1a !important;
+}
   
 /* Twitch Emotes (DubX) size fixes */
 img.emoji.twitch-emoji[alt="fishmoley"] { min-width: 2.5rem; } /* fishmoley */
