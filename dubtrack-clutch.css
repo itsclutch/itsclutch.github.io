@@ -102,18 +102,6 @@ ul.avatar-list li.downdub {
     background: transparent;
 }
  
-#browser .browser-content .browser-content-main .nano .content-videos .playlist_info .right a {
-    background: transparent;
-}
- 
-#browser .browser-content .browser-content-main .nano .content-videos #results_video_api .playlist-item {
-    background: transparent;
-}
- 
-#browser .browser-content .browser-content-main .sidebar .import-playlist, #browser .browser-content .browser-content-main .sidebar .create-playlist {
-    background: transparent;
-}
- 
 #browser .browser-content .browser-content-main .sidebar {
     background: none;
 }
